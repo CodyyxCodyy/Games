@@ -7,17 +7,17 @@ print("Bot Picks" , Play)
 
 if Player.lower() == Play.lower():
     print("Tie")
-if Player.lower() == "rock" and Play.lower() == "paper":
+elif Player.lower() == "rock" and Play.lower() == "paper":
     print("Player Loses")
-if Player.lower() == "rock" and Play.lower() == "scissors":
+elif Player.lower() == "rock" and Play.lower() == "scissors":
     print("Player Wins")
-if Player.lower() == "paper" and Play.lower() == "rock":
+elif Player.lower() == "paper" and Play.lower() == "rock":
     print("Player Wins")
-if Player.lower() == "paper" and Play.lower() == "scissors":
+elif Player.lower() == "paper" and Play.lower() == "scissors":
     print("Player Loses")
-if Player.lower() == "scissors" and Play.lower() == "rock":
+elif Player.lower() == "scissors" and Play.lower() == "rock":
     print("Player Loses")
-if Player.lower() == "scissors" and Play.lower() == "paper":
+elif Player.lower() == "scissors" and Play.lower() == "paper":
     print("Player Wins")
 else:
     print("Player Provided Invalid Input")
