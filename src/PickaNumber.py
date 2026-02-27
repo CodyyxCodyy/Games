@@ -1,6 +1,6 @@
 import random
 NumPool = random.randint(1, 10)
-Player = input("Pick a Number Between 1 and 1\n")
+Player = input("Pick a Number Between 1 and 10\n")
 if int(Player) == NumPool:
     print("Correct!")
 else:
